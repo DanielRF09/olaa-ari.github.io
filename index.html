@@ -18,12 +18,12 @@ body{
 }
 
 .heart {
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
     background-color:red;
     position: relative;
     transform: rotate(45deg);
-    box-shadow: -20px  20px 200px #f20044;
+    box-shadow: -20px  20px 140px #f20044;
     animation: palpitar 0.5s linear infinite alternate;
     
 }
@@ -35,10 +35,10 @@ body{
 }
 h1 {
     color: white;
-    font-size: 32px;
+    font-size: 20px;
 }
 h2 { color : white;
-    font-size: 32px;
+    font-size: 15px;
 }
 
 @keyframes palpitar{
@@ -55,22 +55,22 @@ h2 { color : white;
 .heart::before{
     content: "";
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
     background: red;
     top: -50%;
     border-radius: 50%;
-    box-shadow: 10px  20px 200px #f20044;
+    box-shadow: 10px  20px 140px #f20044;
 }
 .heart::after{
     content: "";
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
     background: red;
     right: 50%;
     border-radius: 50%;
-    box-shadow: 20px  20px 200px #f20044;
+    box-shadow: 20px  20px 140px #f20044;
 }
 
 
@@ -78,10 +78,6 @@ h2 { color : white;
 </style>
 <body>
 
-
-    
-   
-    
 
     <div class="heart"></div>
 
